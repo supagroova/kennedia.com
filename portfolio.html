@@ -1,6 +1,12 @@
 ---
 layout: default
 title: Portfolio
+custom_css: "<link href='/css/bootstrap-carousel-fit.css' rel='stylesheet' />"
+custom_js:  "<script src='/js/bootstrap-carousel-fit.js'></script>
+						 <script src='/js/bootstrap-modal-carousel.js'></script>
+						 <script src='/js/bootstrap-modal-fullscreen.js'></script>
+						 <script src='/js/bootstrap-modal-local.js'></script>"
+
 ---
 
 <div id="portfolio">
@@ -10,6 +16,9 @@ title: Portfolio
 	
 	<ol class="portfolio_list">
 		{% for folio in site.data.portfolio %}
+		
+			{% assign folio_id = (folio.title | downcase | replace: ' ', '_') %}
+		
 		  <li class="row-fluid">
 				<h2>{{ folio.title }}</h2>
 				<div class="technologies span2">
@@ -29,12 +38,38 @@ title: Portfolio
 				<div class="images span2">
 					{% for img in folio.images %}
 					<div class="image">
-						<a href="{{ img.thumb_url }}" title="{{ img.title }}"><img src="{{ img.url }}"></a>
+						<a href="{{ img.url }}" title="{{ img.title }}" data-toggle="modal" data-target="#portfolio_modal" data-local="#{{ folio_id }}">
+							<img src="{{ img.thumbnail_url }}">
+						</a>
 					</div>
 					{% endfor %}
+				</div>
+				
+				<div id="{{ folio_id }}" class="hide carousel slide carousel-fit" data-modalize="true">
+					<!-- Carousel items -->
+					<div class="carousel-inner">
+						{% for img in folio.images %}
+						<div class="item"><img src="{{ img.url }}"></div>
+						{% endfor %}
+					</div>
+					<!-- Carousel nav -->
+					<a class="carousel-control left" href="#{{ folio_id }}" data-slide="prev">&lsaquo;</a>
+					<a class="carousel-control right" href="#{{ folio_id }}" data-slide="next">&rsaquo;</a>
 				</div>
 				
 			</li>
 		{% endfor %}
 	</ol>
+</div>
+
+<div id="portfolio_modal" class="modal hide fade modal-fullscreen" tabindex="-1" role="dialog" aria-labelledby="portfolio_modal_label" aria-hidden="true">
+	<div class="modal-header">
+		<button type="button" class="btn btn-danger" data-dismiss="modal" aria-hidden="true">
+			<i class="icon-remove icon-white"></i>
+			<span>Close</span>
+		</button>
+	</div>
+	<div class="modal-body">
+		<p>One fine body…</p>
+	</div>
 </div>
