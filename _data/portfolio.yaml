@@ -1,0 +1,224 @@
+--- 
+- 
+  description: |-
+      Judy Fisher Associates is London’s leading Media and Arts recruitment specialist.
+      
+      Kennedia Consulting with ODD Design took Judy Fisher's previous static infomation-only web site and rebuilt it as a enterprise grade publishing engine. Complete with dynamic CMS, Job Search/Listings, Weekly Timesheet calculator, News tickers, Consultant profiles, Client testimonials, and more all of which are manageable by the Judy Fisher team themselves to make sure their web-site evolves as they do.
+  images: 
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/JFA_Intro.png"
+      title: "Intro Animation Page"
+      url: "http://localhost:9292/images/portfolio/JFA_Intro_thumb.png"
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/JFA_Contact.png"
+      title: "Contact Page"
+      url: "http://localhost:9292/images/portfolio/JFA_Contact_thumb.png"
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/JFA_Jobs.png"
+      title: "Jobs Search"
+      url: "http://localhost:9292/images/blank.gif"
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/JFA_Timesheets.png"
+      title: "Timesheets Calculator"
+      url: "http://localhost:9292/images/blank.gif"
+  technologies:
+    - Ruby On Rails
+    - Flash
+    - AJAX
+    - Javascript
+    - MySql
+    - HTML
+  title: "JUDY FISHER ASSOCIATES"
+- 
+  description: |-
+      Evisu approached Kennedia to help improve their online store. The first step was to create a new dynamic store locator to proceed their United States drive to open new stores. Kennedia developed a smooth and exciting mini-app that allowed Evisu to manage their store location in a back-end admin section (integrated with their existing system software) and let users browser through the stores stocking evisu products all over the world. It also integrates the amazing Google Maps system to allow users to pinpoint store locations and get instructions on how to get there from their own location.
+      
+      Since the success of the Evisu Store Locator Kennedia has been closely involved in the continuing process of improving the Evisu.com website and assisting them in bolstering their online sales.
+  images: 
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/Evisu-HP.png"
+      title: "Summer '07 Home Page"
+      url: "http://localhost:9292/images/portfolio/Evisu-HP_thumb.png"
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/Evisu-Store_Locator.png"
+      title: "Evisu Store Locator"
+      url: "http://localhost:9292/images/portfolio/Evisu-Store_Locator_thumb.png"
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/Evisu-Admin.png"
+      title: "Evisu Store Locator Admin Section"
+      url: "http://localhost:9292/images/blank.gif"
+  technologies:
+    - PHP
+    - MySql
+    - AJAX
+    - HTML
+    - Javascript
+  title: EVISU.COM
+- 
+  description: |-
+      ODD is an design agency in London who were seeking to re-brand and strengthen their web presence. They wanted the ability to control the content of their website to allow them to keep it's content up-to-date with their blistering progress. They wanted the smooth sexiness of Flash but also visibility to search engine.
+      
+      ODD Kennedia Consulting was approached to solve their requirements and together in consultation with ODD developed an administration backend to their public web-site. The website features numerous flash animations which when viewed by non-flash browsers (like search engines) still display the content in a desirable fashion this mix gave the site visual appeal and content visibility. The website was developed solely by Kennedia Consulting using Ruby on Rails and MySql and a rich mix of Flash and HTML with cutting-edge Javascript. ODD were especially happy with the output and the speed of delivery.
+  images: 
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/ODD-Intro.png"
+      title: "ODD Intro animation"
+      url: "http://localhost:9292/images/portfolio/ODD-Intro_thumb.png"
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/ODD-Story_Page.png"
+      title: "ODD Story Page"
+      url: "http://localhost:9292/images/portfolio/ODD-Story_Page_thumb.png"
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/ODD-Profile.png"
+      title: "ODD Profile"
+      url: "http://localhost:9292/images/portfolio/ODD-Profile_thumb.png"
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/ODD-Admin.png"
+      title: "ODD Admin Section"
+      url: "http://localhost:9292/images/portfolio/ODD-Admin_thumb.png"
+  technologies:
+    - Ruby on Rails
+    - MySql
+    - Flash
+    - HTML
+    - Javascript
+  title: "ODD LONDON"
+- 
+  description: |-
+      Casarotto is one of the UK's leading creative agencies. They represent a large number of award-winning writers, directors, directors of photography, production designers, costume designers and editors, working in film, television and theatre. Working with design direction from ODD, Kennedia built Casarotto's new Web2.0 presence.
+      
+      The website includes a website control panel that allows Casarotto to manage their clients database and also publish news and other infomation about their company. This gives the Casarotto website the flexibility the to grow as they do.
+      
+      The website is built using cutting edge Ruby on Rails, Javascript and AJAX to enhance the users experience, whilst also allowing for users on older browsers to still retain full functionality of the website.
+  images: 
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/Casarotto_5.png"
+      title: "Casarotto Home Page"
+      url: "http://localhost:9292/images/portfolio/Casarotto_5_thumb.png"
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/Casarotto_4.png"
+      title: "Casarotto Admin"
+      url: "http://localhost:9292/images/portfolio/Casarotto_4_thumb.png"
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/Casarotto_3.png"
+      title: "Casarotto Clients"
+      url: "http://localhost:9292/images/portfolio/Casarotto_3_thumb.png"
+  technologies:
+    - Ruby on Rails
+    - MySql
+    - HTML
+    - Javascript
+  title: CASAROTTO.CO.UK
+- 
+  description: |-
+      Mintd is a global collaborative space for artists, designers and musicians to sell their work and connect to new markets. We think it fills a space in online indie retails that until now was left wide open. There is very little in the way of community based market places for up-and-coming creative designers. Connecting direct to the buyer, the seller can deliver goods at a reasonable price. Mintd allows niche markets to form and flourish.
+      
+      Mintd is a sophisticated community/e-commerce platform built in Ruby on Rails. It allows sellers to create virtual online stores and begin selling products for free. The platform promotes health community communication and contribution
+  images: 
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/Mintd.png"
+      title: "Mintd Home Page"
+      url: "http://localhost:9292/images/portfolio/Mintd_Thumb.png"
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/Mintd_2.png"
+      title: "Mintd Store"
+      url: "http://localhost:9292/images/portfolio/Mintd_2_Thumb.png"
+  technologies:
+    - Ruby on Rails
+    - MySql
+    - HTML
+    - Javascript
+  title: MINTD.COM
+- 
+  description: |-
+      The Basecamp Widget is an Apple Dashboard Widget that connects to Basecamp a web-based project management application produced by 37signals. This widget allows you to conveniently access your Basecamp projects from your desktop. At Kennedia Consulting we use Basecamp for all our projects and we all use OS X for most of our work so having access to our projects right on our desktop is a great help. The widget was released as free software in the hope that it would help many other Basecamp users as well.
+      
+      The widget proved so popular that within the first week of release it had accumulated almost 10,000 downloads, had been featured in The Unofficial Apple Weblog and other blogs, ranked 23rd in the Apple Widget Top 50 downloaded widgets, and was chosen as an Apple Staff Favourite widget.
+  images: 
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/Basecamp.png"
+      title: "Basecamp Widget"
+      url: "http://localhost:9292/images/portfolio/Basecamp_Thumb.png"
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/Basecamp_Widget_on_Apple.png"
+      title: "Widget on Apple.com"
+      url: "http://localhost:9292/images/portfolio/Basecamp_Widget_on_Apple_thumb.png"
+  technologies:
+    - HTML
+    - Javascript
+  title: "BASECAMP WIDGET"
+- 
+  description: "Betterbuilt Software is a small software development house based in Melbourne Australia that specialised in the development of software for the Building and Construction industry. Kennedia consulting was approached to design a company logo and design a website that would suite to company and fit into an off-the-shelf product. The resulting website was a clean and simple representation of the company and it's essence."
+  images: 
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/bbsoft.png"
+      title: "Better Built Software"
+      url: "http://localhost:9292/images/portfolio/bbsoft_thumb.png"
+  technologies:
+    - CSS
+    - HTML
+    - Javascript
+  title: "BETTER BUILT SOFTWARE"
+- 
+  description: "The Butterfly Foundation is a charity organisation setup to assist sufferers of eating disorders and promote awareness of the related issues of these disorders. Kennedia Consulting was approached to develop and launch the initial version of the website in conjunction with a team of graphic designers and flash animators. All work was done in static HTML on a pro-bono basis."
+  images: 
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/butterfly.png"
+      title: "The Butterfly Foundation"
+      url: "http://localhost:9292/images/portfolio/butterfly_thumb.png"
+  technologies:
+    - HTML
+    - CSS
+  title: "THE BUTTERFLY FOUNDATION"
+- 
+  description: |-
+      Many people regard Misora Hibari as the greatest pop-star Japan ever saw. Likened to Elvis Presley her popularity lives on with much of middle-aged Japan. When Kennedia Consulting was approached to provide the development for the official Misora Hibari website it was delighted.
+      
+      The website consists of a full featured content management system that allows the web-site's administrators to control the content of the website, from latest news items, to Misora Hibari's discography and merchandise listing. Kennedia consulting built the public facing website and the administration web-site using PHP and MySql.
+  images: 
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/Misora-Hibari.png"
+      title: "Misora Hibari"
+      url: "http://localhost:9292/images/portfolio/Misora-Hibari_thumb.png"
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/Misorahibari-Admin.png"
+      title: "Misora Hibari"
+      url: "http://localhost:9292/images/portfolio/Misorahibari-Admin_thumb.png"
+  technologies:
+    - PHP
+    - MySql
+    - HTML
+    - Javascript
+  title: "MISORA HIBARI"
+- 
+  description: |-
+      Tokyo Designers Block is an annual event held in Tokyo to showcase design in tokyo, by both local in international designers.
+      
+      Kennedia Consulting was approach to develop the backend and frontend parts of the website to allow for designers to register and post content on the website. It was developed using PHP and MySql and was a blast to attend when the work was done!
+  images: 
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/Tokyo-Designers-Block.png"
+      title: "Tokyo Designers Block"
+      url: "http://localhost:9292/images/portfolio/Tokyo-Designers-Block_thumb.png"
+  technologies:
+    - PHP
+    - MySql
+  title: "TOKYO DESIGNERS BLOCK"
+- 
+  description: |-
+      Dejimon.biz is an e-Commerce store that sells Japanese Electronics. The store utilises the Amazon.com webservices platform to provide content from the vast Amazon Japan electronics catalog. This was a personal project developed by Kennedia Consulting to investigate the use of full standards compliant HTML and CSS, Webservices on the internet and the intricacies of Japanese eCommerce.
+      
+      The website was built using PHP and the PEAR library. All pages are cached and automatically updated periodically. The website adheres to W3C web-stanards
+  images: 
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/dejimon.png"
+      title: Dejimon
+      url: "http://localhost:9292/images/portfolio/dejimon_thumb.png"
+    - 
+      thumbnail_url: "http://localhost:9292/images/portfolio/dejimon-browse.png"
+      title: Dejimon
+      url: "http://localhost:9292/images/portfolio/dejimon-browse_thumb.png"
+  technologies:
+    - PHP
+    - Amazon Webservices
+  title: DEJIMON

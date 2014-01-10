@@ -1,0 +1,7 @@
+{% assign post = include.param %}
+<div class="news_item">
+	<div class="blurb">
+	<div class="title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+	<div class="date">{{ post.date }}</div>
+	<p>{{ post.excerpt }}</p>
+</div>

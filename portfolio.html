@@ -1,0 +1,40 @@
+---
+layout: default
+title: Portfolio
+---
+
+<div id="portfolio">
+	<h1 id="portfolio_title">Portfolio</h1>
+	
+	<p>Our portfolio consists of a wide range of web-sites, from Japanese Pop-stars, to fashion labels, to design agencies, to charity foundations. See for yourself!</p>
+	
+	<ol class="portfolio_list">
+		{% for folio in site.data.portfolio %}
+		  <li class="row-fluid">
+				<h2>{{ folio.title }}</h2>
+				<div class="technologies span2">
+					<h4>Technologies</h4>
+					<ul>
+						{% for tech in folio.technologies %}
+						<li>{{ tech }}</li>
+						{% endfor %}
+					</ul>
+				</div>
+
+				<div class="description span6">
+					{{ folio.description | markdownify}}
+					<a href="{{ folio.url }}">{{ folio.title }}</a>
+				</div>
+
+				<div class="images span2">
+					{% for img in folio.images %}
+					<div class="image">
+						<a href="{{ img.thumb_url }}" title="{{ img.title }}"><img src="{{ img.url }}"></a>
+					</div>
+					{% endfor %}
+				</div>
+				
+			</li>
+		{% endfor %}
+	</ol>
+</div>

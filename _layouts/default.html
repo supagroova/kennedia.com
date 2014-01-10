@@ -1,44 +1,97 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+	
+			<meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>{{ page.title }}</title>
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta name="description" content="Kennedia Consulting: History around You.">
+			<meta name="author" content="Kennedia">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+			<!-- FB Meta -->
+			<meta property="og:title"        content="Landmark App: History around You."/>
+			<meta property="og:url"          content="http://www.kennedia.com"/>
+			<meta property="og:image"        content="http://www.kennedia.com/fb_logo.png"/>
+			<meta property="og:image:type"   content="image/png">
+			<meta property="og:image:width"  content="1024">
+			<meta property="og:image:height" content="1024">
+
+			<link href="/css/bootstrap.min.css" rel="stylesheet">
+			<link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="/css/main.css">
 
     </head>
     <body>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
+	    <header id="header" class="site-header">
+	        <div class="container">
+	          <div class="row-fluid" id="site-title">
+	            <div class="span12">
+	              <h1><a href="/">{{ site.name }}</a></h1>
+	            </div>
+	          </div>
 
-          {{ content }}
+	          <div class="row-fluid" id="site-nav">
+	            <div class="span12">
+								<ul class="nav nav-pills">
+									<li><a href="/about.html">about</a></li>
+									<li><a href="/news/">news</a></li>
+									<li><a href="/work.html">work</a></li>
+									<li><a href="/portfolio.html">portfolio</a></li>
+									<li><a href="/contact.html">contact</a></li>
+								</ul>
+	            </div>
+	          </div>
+	        </div>
+				</header>
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+	      <div class="container">
+	        <div class="row-fluid">
+	          <div class="span12">
+				
+          		{{ content }}
+
+						</div>
+					</div>
+				</div>
+
+		    <footer id="footer" class="footer">
+		      <div class="container">
+		        <div class="row-fluid">
+		          <div class="span12">
+								<div class="span4" id="footer_name">
+									<label>Kennedia Consulting</label>
+								</div>
+								<div class="offset4 span4" id="footer_contact">
+									<label>Address:</label>
+									<span>305M/201 Powlett St, East Melbourne, Victoria, Australia. 3002.</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+
+		    <!-- Javascript
+		    ================================================== -->
+		    <script src="js/jquery.js"></script>
+		    <script src="js/bootstrap.min.js"></script>
+				<script type="text/javascript" charset="utf-8">
+					$(document).ready(function() {
+						// Behaviours go here
+					})
+				</script>
+				<script>
+				  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+				  ga('create', 'UA-195847-4', 'kennedia.com');
+				  ga('send', 'pageview');
+
+				</script>
 
     </body>
 </html>

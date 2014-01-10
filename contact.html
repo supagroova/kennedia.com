@@ -1,0 +1,39 @@
+---
+layout: default
+title: Contact
+---
+
+<div id="contact">
+	<h1 id="contact_title">Contact</h1>
+
+  <form id="contact_form" class="show">
+		<p>Please do not hesitate to contact us. We would love to hear from you!</p>
+    <input class="input-block-level" type="text" name="name" placeholder="Name" required />
+    <input class="input-block-level" type="email" name="email" placeholder="Email" required />
+    <textarea class="input-block-level" name="message" placeholder="Message" rows="5" required ></textarea>
+    <button type="submit" class="btn">Send</button>
+  </form>
+
+	<div id="contact_thank_you" class="alert alert-success hide">
+		<strong>✔ Message sent!</strong> We'll get back to you as soon as possible.
+	</div>
+	
+</div>
+
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function() {
+		$('form#contact_form').submit(function () {
+
+			$.ajax({
+			  dataType: 'jsonp',
+			  url: "http://getsimpleform.com/messages/ajax?form_api_token=99a6f39446113987b88367b316be1079",
+			  data: $(this).serializeArray()
+			}).done(function() {
+				$('#contact_thank_you').show();
+				$('#contact_form').hide();
+			});
+
+			return false;
+		});
+	})
+</script>
