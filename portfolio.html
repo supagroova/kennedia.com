@@ -19,20 +19,6 @@ custom_js:  "<script src='/js/bootstrap-lightbox.min.js'></script>"
 		  <li>
 				<h2>{{ folio.title }}</h2>
 				<div class="row-fluid">
-					<div class="technologies span2">
-						<h4>Technologies</h4>
-						<ul>
-							{% for tech in folio.technologies %}
-							<li>{{ tech }}</li>
-							{% endfor %}
-						</ul>
-					</div>
-
-					<div class="description span8">
-						{{ folio.description | markdownify}}
-						<a href="{{ folio.url }}">{{ folio.title }}</a>
-					</div>
-
 					<div class="images span2">
 						{% for img in folio.images %}
 						<div class="image media">
@@ -41,6 +27,19 @@ custom_js:  "<script src='/js/bootstrap-lightbox.min.js'></script>"
 							</a>
 						</div>
 						{% endfor %}
+					</div>
+
+					<div class="description span8">
+						{{ folio.description | markdownify}}
+					</div>
+
+					<div class="technologies span2">
+						<h4>Technologies</h4>
+						<ul>
+							{% for tech in folio.technologies %}
+							<li>{{ tech }}</li>
+							{% endfor %}
+						</ul>
 					</div>
 
 					<div id="{{ lbox_id }}" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">

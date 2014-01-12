@@ -85,10 +85,9 @@ label {
 
 .nav-pills>li> a,
 .nav-pills>li> a:hover {
-	background:none;
-	margin:0;
+    background: none;
+    margin: 0;
 }
-
 
 footer .container {
     border-top: 1px solid #000;
@@ -107,7 +106,7 @@ footer .container {
 }
 
 #footer_logo .media-object {
-	margin:10px auto;
+    margin: 10px auto;
 }
 
 /*****************************************************************************/
@@ -237,4 +236,61 @@ footer .container {
 /*****************************************************************************/
 
 
+/*****************************************************************************/
+/*
+/* Responsive Fix
+/*
+/*****************************************************************************/
+
+/* Large desktop */
+@media (min-width: 979px) and (max-width: 1200px) { }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { }
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    #site_title h1 {
+        text-align: center;
+		margin: 0.5em 0;
+		line-height: 1em;
+	}
+
+	#site_title {
+		background: none;
+	}
+
+	#site_nav .nav {
+		float: none;
+	}
+
+	#site_nav .nav li a {
+	    padding:5px;
+		font-size:0.8em
+	}
+
+	button.btn, input[type="submit"].btn {
+		width:100%;
+	}
+
+}
+
+/*****************************************************************************/
+/*
+/* Retina Images
+/*
+/*****************************************************************************/
+@media print, screen,
+(-webkit-min-device-pixel-ratio: 1.25),
+(~`"-o-min-device-pixel-ratio: 1.25/1"`),
+(min--moz-device-pixel-ratio: 1.25),
+(-moz-min-device-pixel-ratio: 1.25),
+(-ms-min-device-pixel-ratio: 1.25),
+(min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi),
+(min-resolution: 1.25dppx) {
+}
 
