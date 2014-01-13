@@ -54,7 +54,7 @@ label {
 
 #site_title {
     border-bottom: 2px solid #000;
-    background: url('/img/kennedia.mac.gif') 100% -15px no-repeat;
+    background: url('/img/logo.png') 100% -45px no-repeat;
 }
 
 #site_title h1 {
@@ -105,8 +105,13 @@ footer .container {
     line-height: 1.25em;
 }
 
-#footer_logo .media-object {
+#footer_logo a {
+    display: block;
     margin: 10px auto;
+    width: 40px;
+    height: 42px;
+    text-indent: -1000px;
+    background: transparent url('/img/logo_small.png') 50% 50% no-repeat;
 }
 
 /*****************************************************************************/
@@ -196,6 +201,16 @@ footer .container {
     border-color: #d00;
 }
 
+.portfolio_list .thumbnail > img {
+    height: 100px;
+    width: 100px;
+    background-position: 50% 0%;
+    background-repeat: no-repeat, repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
 .lightbox-content {
     overflow: hidden;
 }
@@ -246,36 +261,40 @@ footer .container {
 @media (min-width: 979px) and (max-width: 1200px) { }
 
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { }
+@media (min-width: 768px) and (max-width: 979px) {}
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) { }
+@media (max-width: 767px) {
+    .portfolio_list .thumbnail img {
+        width: 100%;
+        height: 200px;
+    }
+}
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
     #site_title h1 {
         text-align: center;
-		margin: 0.5em 0;
-		line-height: 1em;
-	}
+        margin: 0.5em 0;
+        line-height: 1em;
+    }
 
-	#site_title {
-		background: none;
-	}
+    #site_title {
+        background: none;
+    }
 
-	#site_nav .nav {
-		float: none;
-	}
+    #site_nav .nav {
+        float: none;
+    }
 
-	#site_nav .nav li a {
-	    padding:5px;
-		font-size:0.8em
-	}
+    #site_nav .nav li a {
+        padding: 5px;
+        font-size: 0.8em
+    }
 
-	button.btn, input[type="submit"].btn {
-		width:100%;
-	}
-
+    button.btn, input[type="submit"].btn {
+        width: 100%;
+    }
 }
 
 /*****************************************************************************/
@@ -292,5 +311,14 @@ footer .container {
 (min-device-pixel-ratio: 1.25),
 (min-resolution: 120dpi),
 (min-resolution: 1.25dppx) {
+    #site_title {
+        background-image: url('/img/logo2x.png');
+        background-size: 239px auto;
+    }
+
+    #footer_logo a {
+        background-image: url('/img/logo_small2x.png');
+        background-size: 40px auto;
+    }
 }
 

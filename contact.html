@@ -1,22 +1,7 @@
 ---
 layout: default
 title: Contact
-custom_js : "<script type='text/javascript' charset='utf-8'>
-	$(document).ready(function() {
-		$('form#contact_form').submit(function () {
-
-			$.ajax({
-			  dataType: 'jsonp',
-			  url: 'http://getsimpleform.com/messages/ajax?form_api_token=99a6f39446113987b88367b316be1079',
-			  data: $(this).serializeArray()
-			}).done(function() {
-				$('#contact_thank_you').show();
-				$('#contact_form').hide();
-			});
-			return false;
-		});
-	})
-</script>"
+custom_js : "<script src='/js/main.js'></script>"
 ---
 
 <div id="contact" class="span6">

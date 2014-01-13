@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Portfolio
-custom_css: "<link href='/css/bootstrap-lightbox.min.css' rel='stylesheet' />"
-custom_js:  "<script src='/js/bootstrap-lightbox.min.js'></script>"
+custom_css: "<link rel='stylesheet' href='/css/magnific-popup.css'>"
+custom_js:  "<script src='/js/jquery.magnific-popup.min.js'></script><script src='/js/main.js'></script>"
 
 ---
 
@@ -13,20 +13,17 @@ custom_js:  "<script src='/js/bootstrap-lightbox.min.js'></script>"
 	
 	<ol class="portfolio_list">
 		{% for folio in site.data.portfolio %}
-		
-			{% assign lbox_id  = (folio.id | append: '_lightbox') %}
-			{% assign csel_id  = (folio.id | append: '_carousel') %}
 		  <li>
 				<h2>{{ folio.title }}</h2>
 				<div class="row-fluid">
 					<div class="images span2">
-						{% for img in folio.images %}
-						<div class="image media">
-							<a href="#{{ lbox_id }}" title="{{ img.title }}" class="thumbnail" data-toggle="#lightbox">
-								<img class="media-object" src="{{ img.url }}">
+					{% for img in folio.images %}
+						<div class="image media {% if img.hidden != false %}hide{% endif %}">
+							<a href="{{ img.url }}" title="{{ img.title }}" class="thumbnail" rel="lightbox[{{ folio.id }}]">
+								<img class="media-object" style="background-image:url('{{ img.url }}')">
 							</a>
 						</div>
-						{% endfor %}
+					{% endfor %}
 					</div>
 
 					<div class="description span8">
@@ -40,32 +37,6 @@ custom_js:  "<script src='/js/bootstrap-lightbox.min.js'></script>"
 							<li>{{ tech }}</li>
 							{% endfor %}
 						</ul>
-					</div>
-
-					<div id="{{ lbox_id }}" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
-						<div class="lightbox-content">
-							
-							<div id="{{ csel_id }}" class="carousel slide" data-ride="carousel">
-							  <!-- Wrapper for slides -->
-							  <div class="carousel-inner">
-									{% for img in folio.images %}
-							    <div class="item {% if img == folio.images[0] %}active{% endif %}">
-										<img src="{{ img.url }}">
-							    </div>
-									{% endfor %}
-							  </div>
-
-							  <!-- Controls -->
-							  <a class="left carousel-control" href="#{{ csel_id }}" data-slide="prev">
-							    <span class="glyphicon glyphicon-chevron-left"></span>
-							  </a>
-							  <a class="right carousel-control" href="#{{ csel_id }}" data-slide="next">
-							    <span class="glyphicon glyphicon-chevron-right"></span>
-							  </a>
-							</div>
-							
-							
-						</div>
 					</div>
 
 				</div>

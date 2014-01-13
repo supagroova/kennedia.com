@@ -1,4 +1,211 @@
 --- 
+
+- 
+  title: Pre Play Sports
+  id: preplay
+  description: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  images:
+    - 
+      url: "/img/portfolio/preplay_mlb_ios.png"
+      hidden: false
+    - 
+      url: "/img/portfolio/preplay_nfl.png"
+    - 
+      url: "/img/portfolio/preplay_nfl_ios2.png"
+    - 
+      url: "/img/portfolio/preplay_mlb.png"
+    - 
+      url: "/img/portfolio/preplay_mlb_ios2.png"
+    - 
+      url: "/img/portfolio/preplay_nfl_ios.png"
+    - 
+      url: "/img/portfolio/preplay_nhl.png" 
+    - 
+      url: "/img/portfolio/preplay_web.png"
+      
+  technologies:
+    - Ruby
+    - Heroku
+    - MongoDB
+    - Redis
+    - iOS (Android)
+
+- 
+  title: Kanon Vodka
+  id: kanon
+  description: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  images:
+    - 
+      url: "/img/portfolio/kanon_1.png"
+      hidden: false
+    - 
+      url: "/img/portfolio/kanon_2.png"
+    - 
+      url: "/img/portfolio/kanon_foks.png"
+  technologies:
+    - Ruby On Rails
+
+- 
+  title: "Yvan Rodic (AKA: Facehunter)"
+  id: facehunter
+  description: |-
+    Where in the world is Facehunter?
+    
+    The 88’s site for Yvan Rodic just won the Awwwards site of the day! For those that don’t know, Awwwards is an award for “design, creativity and innovation on the Internet, which recognize and promote the best web designers in the world.”
+  images:
+    - 
+      url: "/img/portfolio/facehunter_1.png"
+      hidden: false
+    - 
+      url: "/img/portfolio/facehunter_2.png"
+    - 
+      url: "/img/portfolio/facehunter_3.png"
+    - 
+      url: "/img/portfolio/facehunter_4.png"
+  technologies:
+    - Ruby On Rails
+    - MapBox
+    - AWS S3
+
+- 
+  title: Applimakers
+  id: applimakers
+  description: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  images:
+    - 
+      url: "/img/portfolio/applimakers_1.png"
+  technologies:
+    - Ruby On Rails
+
+-
+  title: WearCast
+  id: wearcast
+  description: |-
+    
+    Have you ever wondered if today is jacket or shirt weather?  Skirt or skinny jeans?  Well look no further than Wearcast, an on-demand fashion forecast iphone app developed by The 88.
+    
+    For the iPhone app Wearcast, The 88 created a cute little companion website at Wearcastapp.com.
+    
+  images:
+    - 
+      url: "/img/portfolio/wearcast_1.png"
+      hidden: false
+    - 
+      url: "/img/portfolio/wearcast_2.png"
+    - 
+      url: "/img/portfolio/wearcast_web.png"
+
+  technologies:
+    - Ruby On Rails
+    - iOS (Objective-C)
+
+-
+  title: Neverland Lost
+  id: neverland
+  description: |-
+
+    'Neverland Lost: A Portrait of Michael Jackson' is a website showcasing the monumental photo book by Henry Leutwyler.
+
+  images:
+    - 
+      url: "/img/portfolio/neverland_1.png"
+      hidden: false
+    - 
+      url: "/img/portfolio/neverland_2.png"
+
+  technologies:
+    - Ruby on Rails
+    - Heroku
+- 
+  title: Hey Walkies
+  id: heywalkies
+  description: |-
+    Hey Walkies is a website and iphone application designed to bring people and puppies together. While dog owners may know the whereabouts of dog parks in their own neighborhoods, as of yet there is not a resource for locating dog parks around the city. Hey Walkies helps owners find parks for their dogs to play in wherever they may be in NYC. Hey Walkies also taps into Facebook, bringing the world's largest social network to the people and pups that use our site.
+    
+    Apple loved Hey Walkies so much that they decided to feature it in their "Dog Lovers" TV commercial. [Watch the commercial here](http://www.youtube.com/v/0tmcNcTNzxA).
+    
+  images:
+    - 
+      url: "/img/portfolio/heywalkies_web.png"
+      title: "Heywalkies Website"
+      hidden: false
+    -
+      url: "/img/portfolio/heywalkies_iphone_2.png"
+      title: "Heywalkies iPhone App"
+    -
+      url: "/img/portfolio/heywalkies_iphone_3.png"
+      title: "Heywalkies iPhone App"
+  technologies:
+    - Ruby On Rails
+    - Google Maps API integration
+    - Facebook API integration
+    - iOS (Objective-C)
+
+-
+  title: Dana Lixenburg
+  description: |-
+    The 88 created the website for renowned photographer Dana Lixenberg.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  images:
+    - 
+      url: "/img/portfolio/danalixenburg_1.png"
+      hidden: false
+    - 
+      url: "/img/portfolio/danalixenburg_2.png"
+
+- 
+  title: Game Streamer
+  id: gamestreamer
+  description: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  images:
+    - 
+      url: "/img/portfolio/JFA_Intro.png"
+      title: ""
+  technologies:
+    - Ruby On Rails
+- 
+  title: Gigantic Pictures
+  id: gigantic
+  description: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  images:
+    - 
+      url: "/img/portfolio/JFA_Intro.png"
+      title: ""
+  technologies:
+    - Ruby On Rails
+
+- 
+  title: Jalux
+  id: jalux
+  description: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  images:
+    - 
+      url: "/img/portfolio/JFA_Intro.png"
+      title: ""
+      hidden: false
+  technologies:
+    - Ruby On Rails
+
+- 
+  title: Parapluie Ou Pas
+  id: parapluioupas
+  description: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  images:
+    - 
+      url: "/img/portfolio/JFA_Intro.png"
+      title: ""
+      hidden: false
+  technologies:
+    - Ruby On Rails
 - 
   id: judy_fisher
   description: |-
@@ -9,11 +216,11 @@
     - 
       url: "/img/portfolio/JFA_Intro.png"
       title: "Intro Animation Page"
-      thumbnail_url: "/img/portfolio/JFA_Intro_thumb.png"
+      hidden: false
     - 
       url: "/img/portfolio/JFA_Contact.png"
       title: "Contact Page"
-      thumbnail_url: "/img/portfolio/JFA_Contact_thumb.png"
+      hidden: false
   technologies:
     - Ruby On Rails
     - Flash
@@ -32,11 +239,11 @@
     - 
       url: "/img/portfolio/Evisu-HP.png"
       title: "Summer '07 Home Page"
-      thumbnail_url: "/img/portfolio/Evisu-HP_thumb.png"
+      hidden: false
     - 
       url: "/img/portfolio/Evisu-Store_Locator.png"
       title: "Evisu Store Locator"
-      thumbnail_url: "/img/portfolio/Evisu-Store_Locator_thumb.png"
+      hidden: false
   technologies:
     - PHP
     - MySql
@@ -54,19 +261,17 @@
     - 
       url: "/img/portfolio/ODD-Intro.png"
       title: "ODD Intro animation"
-      thumbnail_url: "/img/portfolio/ODD-Intro_thumb.png"
+      hidden: false
     - 
       url: "/img/portfolio/ODD-Story_Page.png"
       title: "ODD Story Page"
-      thumbnail_url: "/img/portfolio/ODD-Story_Page_thumb.png"
+      hidden: false
     - 
       url: "/img/portfolio/ODD-Profile.png"
       title: "ODD Profile"
-      thumbnail_url: "/img/portfolio/ODD-Profile_thumb.png"
     - 
       url: "/img/portfolio/ODD-Admin.png"
       title: "ODD Admin Section"
-      thumbnail_url: "/img/portfolio/ODD-Admin_thumb.png"
   technologies:
     - Ruby on Rails
     - MySql
@@ -86,15 +291,14 @@
     - 
       url: "/img/portfolio/Casarotto_5.png"
       title: "Casarotto Home Page"
-      thumbnail_url: "/img/portfolio/Casarotto_5_thumb.png"
+      hidden: false
     - 
       url: "/img/portfolio/Casarotto_4.png"
       title: "Casarotto Admin"
-      thumbnail_url: "/img/portfolio/Casarotto_4_thumb.png"
+      hidden: false
     - 
       url: "/img/portfolio/Casarotto_3.png"
       title: "Casarotto Clients"
-      thumbnail_url: "/img/portfolio/Casarotto_3_thumb.png"
   technologies:
     - Ruby on Rails
     - MySql
@@ -111,11 +315,11 @@
     - 
       url: "/img/portfolio/Mintd.png"
       title: "Mintd Home Page"
-      thumbnail_url: "/img/portfolio/Mintd_Thumb.png"
+      hidden: false
     - 
       url: "/img/portfolio/Mintd_2.png"
       title: "Mintd Store"
-      thumbnail_url: "/img/portfolio/Mintd_2_Thumb.png"
+      hidden: false
   technologies:
     - Ruby on Rails
     - MySql
@@ -132,11 +336,11 @@
     - 
       url: "/img/portfolio/Basecamp.png"
       title: "Basecamp Widget"
-      thumbnail_url: "/img/portfolio/Basecamp_Thumb.png"
+      hidden: false
     - 
       url: "/img/portfolio/Basecamp_Widget_on_Apple.png"
       title: "Widget on Apple.com"
-      thumbnail_url: "/img/portfolio/Basecamp_Widget_on_Apple_thumb.png"
+      hidden: false
   technologies:
     - HTML
     - Javascript
@@ -148,7 +352,7 @@
     - 
       url: "/img/portfolio/bbsoft.png"
       title: "Better Built Software"
-      thumbnail_url: "/img/portfolio/bbsoft_thumb.png"
+      hidden: false
   technologies:
     - CSS
     - HTML
@@ -161,7 +365,7 @@
     - 
       url: "/img/portfolio/butterfly.png"
       title: "The Butterfly Foundation"
-      thumbnail_url: "/img/portfolio/butterfly_thumb.png"
+      hidden: false
   technologies:
     - HTML
     - CSS
@@ -176,7 +380,7 @@
     - 
       url: "/img/portfolio/Misora-Hibari.png"
       title: "Misora Hibari"
-      thumbnail_url: "/img/portfolio/Misora-Hibari_thumb.png"
+      hidden: false
   technologies:
     - PHP
     - MySql
@@ -193,7 +397,7 @@
     - 
       url: "/img/portfolio/Tokyo-Designers-Block.png"
       title: "Tokyo Designers Block"
-      thumbnail_url: "/img/portfolio/Tokyo-Designers-Block_thumb.png"
+      hidden: false
   technologies:
     - PHP
     - MySql
@@ -208,7 +412,7 @@
     - 
       url: "/img/portfolio/dejimon-browse.png"
       title: Dejimon
-      thumbnail_url: "/img/portfolio/dejimon-browse_thumb.png"
+      hidden: false
   technologies:
     - PHP
     - Amazon Webservices
