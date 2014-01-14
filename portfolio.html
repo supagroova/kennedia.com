@@ -18,7 +18,7 @@ custom_js:  "<script src='/js/jquery.magnific-popup.min.js'></script><script src
 				<div class="row-fluid">
 					<div class="images span2">
 					{% for img in folio.images %}
-						<div class="image media {% if img.hidden != false %}hide{% endif %}">
+						<div class="image media {% if forloop.first %}{% else %}hide{% endif %}">
 							<a href="{{ img.url }}" title="{{ img.title }}" class="thumbnail" rel="lightbox[{{ folio.id }}]">
 								<img class="media-object" style="background-image:url('{{ img.url }}')">
 							</a>

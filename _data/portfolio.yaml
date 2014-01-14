@@ -1,35 +1,45 @@
 --- 
 
 - 
-  title: Pre Play Sports
+  title: Landmark App
+  id: landmark
+  description: |-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  images:
+    - url: "/img/portfolio/landmark_web_1.jpg"
+    - url: "/img/portfolio/landmark_web_2.jpg"
+    - url: "/img/portfolio/landmark_ios_1.jpg"
+    - url: "/img/portfolio/landmark_ios_2.jpg"
+    - url: "/img/portfolio/landmark_icon.png"
+
+  technologies:
+    - Node.js
+    - HTML5
+    - Mysql
+    - Objective-C (iOS)
+
+
+- 
+  title: PrePlay
   id: preplay
   description: |-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   images:
-    - 
-      url: "/img/portfolio/preplay_mlb_ios.png"
-      hidden: false
-    - 
-      url: "/img/portfolio/preplay_nfl.png"
-    - 
-      url: "/img/portfolio/preplay_nfl_ios2.png"
-    - 
-      url: "/img/portfolio/preplay_mlb.png"
-    - 
-      url: "/img/portfolio/preplay_mlb_ios2.png"
-    - 
-      url: "/img/portfolio/preplay_nfl_ios.png"
-    - 
-      url: "/img/portfolio/preplay_nhl.png" 
-    - 
-      url: "/img/portfolio/preplay_web.png"
+    - url: "/img/portfolio/preplay_mlb.png"
+    - url: "/img/portfolio/preplay_nhl.png" 
+    - url: "/img/portfolio/preplay_nfl.png"
+    - url: "/img/portfolio/preplay_mlb_ios.png"
+    - url: "/img/portfolio/preplay_nfl_ios2.jpg"
+    - url: "/img/portfolio/preplay_mlb_ios2.png"
+    - url: "/img/portfolio/preplay_nfl_ios.jpg"
+    - url: "/img/portfolio/preplay_web.png"
       
   technologies:
     - Ruby
     - Heroku
     - MongoDB
     - Redis
-    - iOS (Android)
+    - Objective-C (iOS)
 
 - 
   title: Kanon Vodka
@@ -37,15 +47,11 @@
   description: |-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   images:
-    - 
-      url: "/img/portfolio/kanon_1.png"
-      hidden: false
-    - 
-      url: "/img/portfolio/kanon_2.png"
-    - 
-      url: "/img/portfolio/kanon_foks.png"
+    - url: "/img/portfolio/kanon_1.png"
+    - url: "/img/portfolio/kanon_2.png"
+    - url: "/img/portfolio/kanon_foks.png"
   technologies:
-    - Ruby On Rails
+    - Ruby (Rails)
 
 - 
   title: "Yvan Rodic (AKA: Facehunter)"
@@ -55,17 +61,12 @@
     
     The 88’s site for Yvan Rodic just won the Awwwards site of the day! For those that don’t know, Awwwards is an award for “design, creativity and innovation on the Internet, which recognize and promote the best web designers in the world.”
   images:
-    - 
-      url: "/img/portfolio/facehunter_1.png"
-      hidden: false
-    - 
-      url: "/img/portfolio/facehunter_2.png"
-    - 
-      url: "/img/portfolio/facehunter_3.png"
-    - 
-      url: "/img/portfolio/facehunter_4.png"
+    - url: "/img/portfolio/facehunter_1.png"
+    - url: "/img/portfolio/facehunter_2.png"
+    - url: "/img/portfolio/facehunter_3.png"
+    - url: "/img/portfolio/facehunter_4.png"
   technologies:
-    - Ruby On Rails
+    - Ruby (Rails)
     - MapBox
     - AWS S3
 
@@ -75,10 +76,11 @@
   description: |-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   images:
-    - 
-      url: "/img/portfolio/applimakers_1.png"
+    - url: "/img/portfolio/applimakers_1.png"
+    - url: "/img/portfolio/applimakers_2.png"
+    - url: "/img/portfolio/applimakers_3.png"
   technologies:
-    - Ruby On Rails
+    - Ruby (Rails)
 
 -
   title: WearCast
@@ -90,17 +92,13 @@
     For the iPhone app Wearcast, The 88 created a cute little companion website at Wearcastapp.com.
     
   images:
-    - 
-      url: "/img/portfolio/wearcast_1.png"
-      hidden: false
-    - 
-      url: "/img/portfolio/wearcast_2.png"
-    - 
-      url: "/img/portfolio/wearcast_web.png"
+    - url: "/img/portfolio/wearcast_1.png"
+    - url: "/img/portfolio/wearcast_2.png"
+    - url: "/img/portfolio/wearcast_web.png"
 
   technologies:
-    - Ruby On Rails
-    - iOS (Objective-C)
+    - Ruby (Rails)
+    - Objective-C (iOS)
 
 -
   title: Neverland Lost
@@ -110,14 +108,11 @@
     'Neverland Lost: A Portrait of Michael Jackson' is a website showcasing the monumental photo book by Henry Leutwyler.
 
   images:
-    - 
-      url: "/img/portfolio/neverland_1.png"
-      hidden: false
-    - 
-      url: "/img/portfolio/neverland_2.png"
+    - url: "/img/portfolio/neverland_1.png"
+    - url: "/img/portfolio/neverland_2.png"
 
   technologies:
-    - Ruby on Rails
+    - Ruby (Rails)
     - Heroku
 - 
   title: Hey Walkies
@@ -128,21 +123,14 @@
     Apple loved Hey Walkies so much that they decided to feature it in their "Dog Lovers" TV commercial. [Watch the commercial here](http://www.youtube.com/v/0tmcNcTNzxA).
     
   images:
-    - 
-      url: "/img/portfolio/heywalkies_web.png"
-      title: "Heywalkies Website"
-      hidden: false
-    -
-      url: "/img/portfolio/heywalkies_iphone_2.png"
-      title: "Heywalkies iPhone App"
-    -
-      url: "/img/portfolio/heywalkies_iphone_3.png"
-      title: "Heywalkies iPhone App"
+    - url: "/img/portfolio/heywalkies_web.png"
+    - url: "/img/portfolio/heywalkies_iphone_2.png"
+    - url: "/img/portfolio/heywalkies_iphone_3.png"
   technologies:
-    - Ruby On Rails
+    - Ruby (Rails)
     - Google Maps API integration
     - Facebook API integration
-    - iOS (Objective-C)
+    - Objective-C (iOS)
 
 -
   title: Dana Lixenburg
@@ -152,11 +140,8 @@
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
   images:
-    - 
-      url: "/img/portfolio/danalixenburg_1.png"
-      hidden: false
-    - 
-      url: "/img/portfolio/danalixenburg_2.png"
+    - url: "/img/portfolio/danalixenburg_1.png"
+    - url: "/img/portfolio/danalixenburg_2.png"
 
 - 
   title: Game Streamer
@@ -164,35 +149,21 @@
   description: |-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   images:
-    - 
-      url: "/img/portfolio/JFA_Intro.png"
-      title: ""
+    - url: "/img/portfolio/gamestreamer_1.png"
+    - url: "/img/portfolio/gamestreamer_2.png"
+    - url: "/img/portfolio/gamestreamer_3.png"
+    - url: "/img/portfolio/gamestreamer_4.png"
   technologies:
-    - Ruby On Rails
+    - Ruby (Rails)
 - 
   title: Gigantic Pictures
   id: gigantic
   description: |-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   images:
-    - 
-      url: "/img/portfolio/JFA_Intro.png"
-      title: ""
+    - url: "/img/portfolio/gigantic_1.jpg"
   technologies:
-    - Ruby On Rails
-
-- 
-  title: Jalux
-  id: jalux
-  description: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  images:
-    - 
-      url: "/img/portfolio/JFA_Intro.png"
-      title: ""
-      hidden: false
-  technologies:
-    - Ruby On Rails
+    - Ruby (Rails)
 
 - 
   title: Parapluie Ou Pas
@@ -200,12 +171,15 @@
   description: |-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   images:
-    - 
-      url: "/img/portfolio/JFA_Intro.png"
-      title: ""
-      hidden: false
+    - url: "/img/portfolio/parapluie_1.jpg"
+    - url: "/img/portfolio/parapluie_2.jpg"
+    - url: "/img/portfolio/parapluie_3.jpg"
+    - url: "/img/portfolio/parapluie_4.jpg"
+    - url: "/img/portfolio/parapluie_5.jpg"
+    - url: "/img/portfolio/parapluie_6.jpg"
+
   technologies:
-    - Ruby On Rails
+    - Ruby (Rails)
 - 
   id: judy_fisher
   description: |-
@@ -213,16 +187,10 @@
       
       Kennedia Consulting with ODD Design took Judy Fisher's previous static infomation-only web site and rebuilt it as a enterprise grade publishing engine. Complete with dynamic CMS, Job Search/Listings, Weekly Timesheet calculator, News tickers, Consultant profiles, Client testimonials, and more all of which are manageable by the Judy Fisher team themselves to make sure their web-site evolves as they do.
   images: 
-    - 
-      url: "/img/portfolio/JFA_Intro.png"
-      title: "Intro Animation Page"
-      hidden: false
-    - 
-      url: "/img/portfolio/JFA_Contact.png"
-      title: "Contact Page"
-      hidden: false
+    - url: "/img/portfolio/JFA_Intro.png"
+    - url: "/img/portfolio/JFA_Contact.png"
   technologies:
-    - Ruby On Rails
+    - Ruby (Rails)
     - Flash
     - AJAX
     - Javascript
@@ -236,21 +204,15 @@
       
       Since the success of the Evisu Store Locator Kennedia has been closely involved in the continuing process of improving the Evisu.com website and assisting them in bolstering their online sales.
   images: 
-    - 
-      url: "/img/portfolio/Evisu-HP.png"
-      title: "Summer '07 Home Page"
-      hidden: false
-    - 
-      url: "/img/portfolio/Evisu-Store_Locator.png"
-      title: "Evisu Store Locator"
-      hidden: false
+    - url: "/img/portfolio/Evisu-HP.png"
+    - url: "/img/portfolio/Evisu-Store_Locator.png"
   technologies:
     - PHP
     - MySql
     - AJAX
     - HTML
     - Javascript
-  title: EVISU.COM
+  title: Evisu
 - 
   id: thankodd
   description: |-
@@ -258,22 +220,12 @@
       
       ODD Kennedia Consulting was approached to solve their requirements and together in consultation with ODD developed an administration backend to their public web-site. The website features numerous flash animations which when viewed by non-flash browsers (like search engines) still display the content in a desirable fashion this mix gave the site visual appeal and content visibility. The website was developed solely by Kennedia Consulting using Ruby on Rails and MySql and a rich mix of Flash and HTML with cutting-edge Javascript. ODD were especially happy with the output and the speed of delivery.
   images: 
-    - 
-      url: "/img/portfolio/ODD-Intro.png"
-      title: "ODD Intro animation"
-      hidden: false
-    - 
-      url: "/img/portfolio/ODD-Story_Page.png"
-      title: "ODD Story Page"
-      hidden: false
-    - 
-      url: "/img/portfolio/ODD-Profile.png"
-      title: "ODD Profile"
-    - 
-      url: "/img/portfolio/ODD-Admin.png"
-      title: "ODD Admin Section"
+    - url: "/img/portfolio/ODD-Intro.png"
+    - url: "/img/portfolio/ODD-Story_Page.png"
+    - url: "/img/portfolio/ODD-Profile.png"
+    - url: "/img/portfolio/ODD-Admin.png"
   technologies:
-    - Ruby on Rails
+    - Ruby (Rails)
     - MySql
     - Flash
     - HTML
@@ -288,23 +240,15 @@
       
       The website is built using cutting edge Ruby on Rails, Javascript and AJAX to enhance the users experience, whilst also allowing for users on older browsers to still retain full functionality of the website.
   images: 
-    - 
-      url: "/img/portfolio/Casarotto_5.png"
-      title: "Casarotto Home Page"
-      hidden: false
-    - 
-      url: "/img/portfolio/Casarotto_4.png"
-      title: "Casarotto Admin"
-      hidden: false
-    - 
-      url: "/img/portfolio/Casarotto_3.png"
-      title: "Casarotto Clients"
+    - url: "/img/portfolio/Casarotto_5.png"
+    - url: "/img/portfolio/Casarotto_4.png"
+    - url: "/img/portfolio/Casarotto_3.png"
   technologies:
-    - Ruby on Rails
+    - Ruby (Rails)
     - MySql
     - HTML
     - Javascript
-  title: CASAROTTO.CO.UK
+  title: Casarotto
 - 
   id: mintd
   description: |-
@@ -312,20 +256,14 @@
       
       Mintd is a sophisticated community/e-commerce platform built in Ruby on Rails. It allows sellers to create virtual online stores and begin selling products for free. The platform promotes health community communication and contribution
   images: 
-    - 
-      url: "/img/portfolio/Mintd.png"
-      title: "Mintd Home Page"
-      hidden: false
-    - 
-      url: "/img/portfolio/Mintd_2.png"
-      title: "Mintd Store"
-      hidden: false
+    - url: "/img/portfolio/Mintd.png"
+    - url: "/img/portfolio/Mintd_2.png"
   technologies:
-    - Ruby on Rails
+    - Ruby (Rails)
     - MySql
     - HTML
     - Javascript
-  title: MINTD.COM
+  title: Mintd
 - 
   id: basecamp
   description: |-
@@ -333,43 +271,12 @@
       
       The widget proved so popular that within the first week of release it had accumulated almost 10,000 downloads, had been featured in The Unofficial Apple Weblog and other blogs, ranked 23rd in the Apple Widget Top 50 downloaded widgets, and was chosen as an Apple Staff Favourite widget.
   images: 
-    - 
-      url: "/img/portfolio/Basecamp.png"
-      title: "Basecamp Widget"
-      hidden: false
-    - 
-      url: "/img/portfolio/Basecamp_Widget_on_Apple.png"
-      title: "Widget on Apple.com"
-      hidden: false
+    - url: "/img/portfolio/Basecamp.png"
+    - url: "/img/portfolio/Basecamp_Widget_on_Apple.png"
   technologies:
     - HTML
     - Javascript
-  title: "BASECAMP WIDGET"
-- 
-  id: bbs
-  description: "Betterbuilt Software is a small software development house based in Melbourne Australia that specialised in the development of software for the Building and Construction industry. Kennedia consulting was approached to design a company logo and design a website that would suite to company and fit into an off-the-shelf product. The resulting website was a clean and simple representation of the company and it's essence."
-  images: 
-    - 
-      url: "/img/portfolio/bbsoft.png"
-      title: "Better Built Software"
-      hidden: false
-  technologies:
-    - CSS
-    - HTML
-    - Javascript
-  title: "BETTER BUILT SOFTWARE"
-- 
-  id: butterfly
-  description: "The Butterfly Foundation is a charity organisation setup to assist sufferers of eating disorders and promote awareness of the related issues of these disorders. Kennedia Consulting was approached to develop and launch the initial version of the website in conjunction with a team of graphic designers and flash animators. All work was done in static HTML on a pro-bono basis."
-  images: 
-    - 
-      url: "/img/portfolio/butterfly.png"
-      title: "The Butterfly Foundation"
-      hidden: false
-  technologies:
-    - HTML
-    - CSS
-  title: "THE BUTTERFLY FOUNDATION"
+  title: "Basecamp Widget"
 - 
   id: hibari
   description: |-
@@ -377,16 +284,13 @@
       
       The website consists of a full featured content management system that allows the web-site's administrators to control the content of the website, from latest news items, to Misora Hibari's discography and merchandise listing. Kennedia consulting built the public facing website and the administration web-site using PHP and MySql.
   images: 
-    - 
-      url: "/img/portfolio/Misora-Hibari.png"
-      title: "Misora Hibari"
-      hidden: false
+    - url: "/img/portfolio/Misora-Hibari.png"
   technologies:
     - PHP
     - MySql
     - HTML
     - Javascript
-  title: "MISORA HIBARI"
+  title: "Misora Hibari"
 - 
   id: tbd
   description: |-
@@ -394,14 +298,11 @@
       
       Kennedia Consulting was approach to develop the backend and frontend parts of the website to allow for designers to register and post content on the website. It was developed using PHP and MySql and was a blast to attend when the work was done!
   images: 
-    - 
-      url: "/img/portfolio/Tokyo-Designers-Block.png"
-      title: "Tokyo Designers Block"
-      hidden: false
+    - url: "/img/portfolio/Tokyo-Designers-Block.png"
   technologies:
     - PHP
     - MySql
-  title: "TOKYO DESIGNERS BLOCK"
+  title: "Tokyo Designers Block"
 - 
   id: dejimon
   description: |-
@@ -409,11 +310,8 @@
       
       The website was built using PHP and the PEAR library. All pages are cached and automatically updated periodically. The website adheres to W3C web-stanards
   images: 
-    - 
-      url: "/img/portfolio/dejimon-browse.png"
-      title: Dejimon
-      hidden: false
+    - url: "/img/portfolio/dejimon-browse.png"
   technologies:
     - PHP
     - Amazon Webservices
-  title: DEJIMON
+  title: Dejimon

@@ -20,7 +20,8 @@ $(document).ready(function() {
 		type:'image',
 		showCloseBtn: false,
 		gallery:{
-	    enabled:true
+	    enabled:true,
+			arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"><span class="glyphicon glyphicon-chevron-%dir%"></span></button>', // markup of an arrow button
 	  }
 	});
 	

@@ -265,9 +265,25 @@ footer .container {
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+    #site_title h1 {
+        margin: 0.5em 0;
+        line-height: 1em;
+    }
+
+    #site_title h1 span {
+        display: block;
+    }
+
     .portfolio_list .thumbnail img {
         width: 100%;
         height: 200px;
+    }
+}
+
+/* Header logo overlaps title */
+@media (max-width: 540px) {
+    #site_title {
+        background: none;
     }
 }
 
@@ -275,16 +291,16 @@ footer .container {
 @media (max-width: 480px) {
     #site_title h1 {
         text-align: center;
-        margin: 0.5em 0;
-        line-height: 1em;
-    }
-
-    #site_title {
-        background: none;
     }
 
     #site_nav .nav {
         float: none;
+    }
+
+    #site_nav .nav li {
+        width: 20%;
+        text-align: center;
+        margin: 0;
     }
 
     #site_nav .nav li a {
@@ -311,10 +327,12 @@ footer .container {
 (min-device-pixel-ratio: 1.25),
 (min-resolution: 120dpi),
 (min-resolution: 1.25dppx) {
-    #site_title {
-        background-image: url('/img/logo2x.png');
-        background-size: 239px auto;
-    }
+    @media (min-width: 540px) {
+        #site_title {
+            background-image: url('/img/logo2x.png');
+            background-size: 239px auto;
+        }
+}
 
     #footer_logo a {
         background-image: url('/img/logo_small2x.png');
