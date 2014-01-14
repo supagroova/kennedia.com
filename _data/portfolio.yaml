@@ -4,7 +4,9 @@
   title: Landmark App
   id: landmark
   description: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    [Landmark App](https://itunes.apple.com/app/id778960433) is an iOS application gives you a pocket guide to all the cultural and historic landmarks around you. Use it learn more about the place you live, or the places you visit. With the ability to download and store landmarks offline, it is a perfect companion for tourists going places where they have no network connection. 
+    
+    The application was built as a side project to 'scratch an itch' (ie: being unable to find anything that did the same job as well). The application is accompanied by a website [landmarkapp.io](http://landmarkapp.io) and a Nodejs based API service providing the geo-located landmarks.
   images:
     - url: "/img/portfolio/landmark_web_1.jpg"
     - url: "/img/portfolio/landmark_web_2.jpg"
@@ -23,7 +25,12 @@
   title: PrePlay
   id: preplay
   description: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    [PrePlay](http://preplaysports.com/) aims to "enable every fan to predict every play of every game of every sport in the world". This is manifest in a suite of mobile sports based real-time prediction games for the [MLB](http://mlb.preplaysports.com/), [NHL](http://nhl.preplaysports.com/) and [NFL](http://football.preplaysports.com/) leagues in the US.
+    
+    Kennedia built the original PrePlay platform and mobile applications for the NFL, NHL & MLB, and later as CTO, helped raise several millions in funding, grew the development team from a single developer to a over 10, including iOS, Android & API teams working along-side Game and Graphic designers.
+
+    The Pre Play Sports iPhone application reached 1 position in the US Apple App-Store "What's Hot" category. [Patents](http://www.uspto.gov/web/patents/patog/week22/OG/html/1390-4/US08449361-20130528.html) were also granted as a result of the ground-breaking server-side API development done for this project.
+
   images:
     - url: "/img/portfolio/preplay_mlb.png"
     - url: "/img/portfolio/preplay_nhl.png" 
@@ -42,24 +49,28 @@
     - Objective-C (iOS)
 
 - 
-  title: Kanon Vodka
+  title: "Kanon Vodka & Atreides"
   id: kanon
   description: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    [Kanon Organic Vodka](http://www.ripkanon.com/blog) was built for the US launch of the Vodka Brand and was the central marketing apparatice throughout the campaign.
+    
+    Kennedia built a custom CSS that would enable a team of editor to update new content daily and analyse the result of marketing campaigns. The CMS has been since released as open source under the name of [Atreides](http://the88.github.io/Atreides/).
   images:
-    - url: "/img/portfolio/kanon_1.png"
-    - url: "/img/portfolio/kanon_2.png"
-    - url: "/img/portfolio/kanon_foks.png"
+    - url: "/img/portfolio/kanon_1.jpg"
+    - url: "/img/portfolio/kanon_2.jpg"
+    - url: "/img/portfolio/kanon_3.jpg"
+    - url: "/img/portfolio/kanon_4.jpg"
   technologies:
     - Ruby (Rails)
 
 - 
-  title: "Yvan Rodic (AKA: Facehunter)"
+  title: "Facehunter (AKA: Yvan Rodic)"
   id: facehunter
   description: |-
-    Where in the world is Facehunter?
+    Where in the world is Facehunter (AKA: [Yvan Rodic](http://www.yvanrodic.com))?
     
-    The 88’s site for Yvan Rodic just won the Awwwards site of the day! For those that don’t know, Awwwards is an award for “design, creativity and innovation on the Internet, which recognize and promote the best web designers in the world.”
+    Kennedia created a site for Yvan Rodic which won a [Awwwards site of the day](http://www.awwwards.com/web-design-awards/yvan-rodic-visual-diary). For those that don’t know, Awwwards is an award for “design, creativity and innovation on the Internet, which recognize and promote the best web designers in the world.”
+    
   images:
     - url: "/img/portfolio/facehunter_1.png"
     - url: "/img/portfolio/facehunter_2.png"
@@ -68,13 +79,17 @@
   technologies:
     - Ruby (Rails)
     - MapBox
+    - Heroku
     - AWS S3
 
 - 
   title: Applimakers
   id: applimakers
   description: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Applimakers.com provides the connection between entrepreneurs with the next big idea for a iPhone app and iPhone developers. 
+    
+    With a fast streamlined setup process that imports developers work from the iTune App Store and easy localisation for potential clients it offers a simple way to bring the two parties together.
+    
   images:
     - url: "/img/portfolio/applimakers_1.png"
     - url: "/img/portfolio/applimakers_2.png"
@@ -101,13 +116,14 @@
     - Objective-C (iOS)
 
 -
-  title: Neverland Lost
+  title: "Henry Leutwyler & Neverland Lost"
   id: neverland
   description: |-
-
-    'Neverland Lost: A Portrait of Michael Jackson' is a website showcasing the monumental photo book by Henry Leutwyler.
+    Kennedia built two website for world-renowned photographer Henry Leutwyler, one being his personal [portfolio site](http://henryleutwyler.com), and the other a showcase for his highly anticipated phot-book about the belongings of Michael Jackson titled ['Neverland Lost: A Portrait of Michael Jackson'](http://www.neverlandlost.com).
 
   images:
+    - url: "/img/portfolio/leutwyler_1.jpg"
+    - url: "/img/portfolio/leutwyler_2.jpg"
     - url: "/img/portfolio/neverland_1.png"
     - url: "/img/portfolio/neverland_2.png"
 
@@ -135,9 +151,7 @@
 -
   title: Dana Lixenburg
   description: |-
-    The 88 created the website for renowned photographer Dana Lixenberg.
-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    The website for renowned photographer Dana Lixenberg.
 
   images:
     - url: "/img/portfolio/danalixenburg_1.png"
@@ -147,7 +161,10 @@
   title: Game Streamer
   id: gamestreamer
   description: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Kennedia built the [GameStreamer](http://www.gamestreamer.net) platform as a Video-Game distribution network which offered white-label 'turnkey' solutions for hosting online video game stores. 
+    
+    Key components of this work was with Sony's DRM department to create the worlds first fully automated DRM-Wrapping service. As a result of this work a [patent](http://www.redorbit.com/news/technology/1727053/gamestreamer_inc_unveils_its_revolutionary_autodrmwrapping_piracy_protection_installer_builder/index.html) was created.
+    
   images:
     - url: "/img/portfolio/gamestreamer_1.png"
     - url: "/img/portfolio/gamestreamer_2.png"
@@ -156,10 +173,11 @@
   technologies:
     - Ruby (Rails)
 - 
-  title: Gigantic Pictures
+  title: Gigantic Digital
   id: gigantic
   description: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Gigantic Digital is a pioneer in the online indie video-on-demand industry. Kennedia built it's online view streaming and ticketing platform.
+    
   images:
     - url: "/img/portfolio/gigantic_1.jpg"
   technologies:
@@ -169,7 +187,8 @@
   title: Parapluie Ou Pas
   id: parapluioupas
   description: |-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Super Simple Weather. Parapluie ou Pas (Umbrella or Not) was a simple prototype weather service that would locate your position and give you a rain/shine weather forcast for the day. It was optimized for Mobile and Desktop and multi-lingual.
+    
   images:
     - url: "/img/portfolio/parapluie_1.jpg"
     - url: "/img/portfolio/parapluie_2.jpg"
@@ -201,8 +220,7 @@
   id: evisu
   description: |-
       Evisu approached Kennedia to help improve their online store. The first step was to create a new dynamic store locator to proceed their United States drive to open new stores. Kennedia developed a smooth and exciting mini-app that allowed Evisu to manage their store location in a back-end admin section (integrated with their existing system software) and let users browser through the stores stocking evisu products all over the world. It also integrates the amazing Google Maps system to allow users to pinpoint store locations and get instructions on how to get there from their own location.
-      
-      Since the success of the Evisu Store Locator Kennedia has been closely involved in the continuing process of improving the Evisu.com website and assisting them in bolstering their online sales.
+
   images: 
     - url: "/img/portfolio/Evisu-HP.png"
     - url: "/img/portfolio/Evisu-Store_Locator.png"
@@ -217,8 +235,7 @@
   id: thankodd
   description: |-
       ODD is an design agency in London who were seeking to re-brand and strengthen their web presence. They wanted the ability to control the content of their website to allow them to keep it's content up-to-date with their blistering progress. They wanted the smooth sexiness of Flash but also visibility to search engine.
-      
-      ODD Kennedia Consulting was approached to solve their requirements and together in consultation with ODD developed an administration backend to their public web-site. The website features numerous flash animations which when viewed by non-flash browsers (like search engines) still display the content in a desirable fashion this mix gave the site visual appeal and content visibility. The website was developed solely by Kennedia Consulting using Ruby on Rails and MySql and a rich mix of Flash and HTML with cutting-edge Javascript. ODD were especially happy with the output and the speed of delivery.
+
   images: 
     - url: "/img/portfolio/ODD-Intro.png"
     - url: "/img/portfolio/ODD-Story_Page.png"
@@ -235,10 +252,7 @@
   id: casarotto
   description: |-
       Casarotto is one of the UK's leading creative agencies. They represent a large number of award-winning writers, directors, directors of photography, production designers, costume designers and editors, working in film, television and theatre. Working with design direction from ODD, Kennedia built Casarotto's new Web2.0 presence.
-      
-      The website includes a website control panel that allows Casarotto to manage their clients database and also publish news and other infomation about their company. This gives the Casarotto website the flexibility the to grow as they do.
-      
-      The website is built using cutting edge Ruby on Rails, Javascript and AJAX to enhance the users experience, whilst also allowing for users on older browsers to still retain full functionality of the website.
+
   images: 
     - url: "/img/portfolio/Casarotto_5.png"
     - url: "/img/portfolio/Casarotto_4.png"
@@ -253,8 +267,7 @@
   id: mintd
   description: |-
       Mintd is a global collaborative space for artists, designers and musicians to sell their work and connect to new markets. We think it fills a space in online indie retails that until now was left wide open. There is very little in the way of community based market places for up-and-coming creative designers. Connecting direct to the buyer, the seller can deliver goods at a reasonable price. Mintd allows niche markets to form and flourish.
-      
-      Mintd is a sophisticated community/e-commerce platform built in Ruby on Rails. It allows sellers to create virtual online stores and begin selling products for free. The platform promotes health community communication and contribution
+
   images: 
     - url: "/img/portfolio/Mintd.png"
     - url: "/img/portfolio/Mintd_2.png"
@@ -267,7 +280,7 @@
 - 
   id: basecamp
   description: |-
-      The Basecamp Widget is an Apple Dashboard Widget that connects to Basecamp a web-based project management application produced by 37signals. This widget allows you to conveniently access your Basecamp projects from your desktop. At Kennedia Consulting we use Basecamp for all our projects and we all use OS X for most of our work so having access to our projects right on our desktop is a great help. The widget was released as free software in the hope that it would help many other Basecamp users as well.
+      The Basecamp Widget is an Apple Dashboard Widget that connects to Basecamp a web-based project management application produced by 37signals. The widget allows you to conveniently access your Basecamp projects from your desktop.
       
       The widget proved so popular that within the first week of release it had accumulated almost 10,000 downloads, had been featured in The Unofficial Apple Weblog and other blogs, ranked 23rd in the Apple Widget Top 50 downloaded widgets, and was chosen as an Apple Staff Favourite widget.
   images: 
@@ -282,7 +295,6 @@
   description: |-
       Many people regard Misora Hibari as the greatest pop-star Japan ever saw. Likened to Elvis Presley her popularity lives on with much of middle-aged Japan. When Kennedia Consulting was approached to provide the development for the official Misora Hibari website it was delighted.
       
-      The website consists of a full featured content management system that allows the web-site's administrators to control the content of the website, from latest news items, to Misora Hibari's discography and merchandise listing. Kennedia consulting built the public facing website and the administration web-site using PHP and MySql.
   images: 
     - url: "/img/portfolio/Misora-Hibari.png"
   technologies:
@@ -308,7 +320,6 @@
   description: |-
       Dejimon.biz is an e-Commerce store that sells Japanese Electronics. The store utilises the Amazon.com webservices platform to provide content from the vast Amazon Japan electronics catalog. This was a personal project developed by Kennedia Consulting to investigate the use of full standards compliant HTML and CSS, Webservices on the internet and the intricacies of Japanese eCommerce.
       
-      The website was built using PHP and the PEAR library. All pages are cached and automatically updated periodically. The website adheres to W3C web-stanards
   images: 
     - url: "/img/portfolio/dejimon-browse.png"
   technologies:
