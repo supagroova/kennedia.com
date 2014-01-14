@@ -1,0 +1,345 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+body {
+    font-family: 'Helvetica Neue', 'Helvetica Neue Light', 'Arial', 'sans-serif';
+}
+
+h1, h2, h3, h4 {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue', 'Helvetica Neue Light', 'Arial', 'sans-serif';
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: -0.04em;
+    margin-bottom: 0.5em;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+h3, h4 {
+    font-size: 1em;
+}
+
+a, a:visited, a:active {
+    color: #d00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f00;
+}
+
+label {
+    font-weight: bold;
+}
+
+.container {
+    max-width: 724px;
+}
+
+/*****************************************************************************/
+/*
+/* Header / Footer
+/*
+/*****************************************************************************/
+
+#site_title {
+    border-bottom: 2px solid #000;
+    background: url('/img/logo.png') 100% -45px no-repeat;
+}
+
+#site_title h1 {
+    font-size: 2em;
+    font-weight: normal;
+    letter-spacing: -0.07em;
+    margin: 1.5em 0 0 0;
+
+}
+
+#site_title a:hover {
+    text-decoration: none;
+}
+
+#title {
+    color: #000;
+}
+
+#site_nav .nav {
+    float: right;
+    text-transform: uppercase;
+}
+
+.nav li {
+    border-bottom: 1px solid #000;
+    margin-left: 2px;
+}
+
+.nav-pills>li> a,
+.nav-pills>li> a:hover {
+    background: none;
+    margin: 0;
+}
+
+footer .container {
+    border-top: 1px solid #000;
+    margin: 1em auto;
+    padding-top: 0.5em;
+}
+
+#footer_name label {
+    text-transform: uppercase;
+    line-height: 45px;
+}
+
+#footer_contact {
+    font-size: 0.75em;
+    line-height: 1.25em;
+}
+
+#footer_logo a {
+    display: block;
+    margin: 10px auto;
+    width: 40px;
+    height: 42px;
+    text-indent: -1000px;
+    background: transparent url('/img/logo_small.png') 50% 50% no-repeat;
+}
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+
+.home-excerp h1 a {
+    color: #000;
+}
+
+/*****************************************************************************/
+/*
+/* News / Posts
+/*
+/*****************************************************************************/
+
+#news ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.news_item {
+    margin: 1em 0;
+}
+
+.news_item .title a {
+    color: #000;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: -0.08em;
+}
+
+#news .news_item .title {
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 0.5em 0;
+}
+
+.news_item .date {
+    color: #aaa;
+    letter-spacing: -0.08em;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.pagination {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+/*****************************************************************************/
+/*
+/* Portfolio
+/*
+/*****************************************************************************/
+
+.portfolio_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio_list h2 {
+    border-bottom: 1px solid #000;
+}
+
+.technologies ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #888;
+}
+
+.technologies h4 {
+    margin-top: 0;
+}
+
+.portfolio_list .thumbnail {
+    border-radius: 0;
+}
+
+.portfolio_list .thumbnail:hover {
+    border-color: #d00;
+}
+
+.portfolio_list .thumbnail > img {
+    height: 100px;
+    width: 100px;
+    background-position: 50% 0%;
+    background-repeat: no-repeat, repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.lightbox-content {
+    overflow: hidden;
+}
+
+.carousel-inner>.item>img {
+    margin: 0 auto;
+}
+
+.carousel-control {
+    height: 100%;
+    width: 50%;
+    border: none;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background: none;
+}
+
+.carousel-control.right {
+    right: 0;
+}
+
+/*****************************************************************************/
+/*
+/* About
+/*
+/*****************************************************************************/
+
+#about h2 {
+    margin-top: 1em;
+}
+
+/*****************************************************************************/
+/*
+/* Contact
+/*
+/*****************************************************************************/
+
+
+/*****************************************************************************/
+/*
+/* Responsive Fix
+/*
+/*****************************************************************************/
+
+/* Large desktop */
+@media (min-width: 979px) and (max-width: 1200px) { }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    #site_title h1 {
+        margin: 0.5em 0;
+        line-height: 1em;
+    }
+
+    #site_title h1 span {
+        display: block;
+    }
+
+    .portfolio_list .thumbnail img {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+/* Header logo overlaps title */
+@media (max-width: 540px) {
+    #site_title {
+        background: none;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    #site_title h1 {
+        text-align: center;
+    }
+
+    #site_nav .nav {
+        float: none;
+        border-bottom: 1px solid #000;
+    }
+
+    #site_nav .nav li {
+        width: auto;
+        text-align: left;
+        margin: 0;
+        padding: 0 1px;
+        border: none;
+    }
+
+    #site_nav .nav li a {
+        padding: 5px;
+        font-size: 0.8em
+    }
+
+    button.btn, input[type="submit"].btn {
+        width: 100%;
+    }
+}
+
+/*****************************************************************************/
+/*
+/* Retina Images
+/*
+/*****************************************************************************/
+@media print, screen,
+(-webkit-min-device-pixel-ratio: 1.25),
+(~`"-o-min-device-pixel-ratio: 1.25/1"`),
+(min--moz-device-pixel-ratio: 1.25),
+(-moz-min-device-pixel-ratio: 1.25),
+(-ms-min-device-pixel-ratio: 1.25),
+(min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi),
+(min-resolution: 1.25dppx) {
+    @media (min-width: 540px) {
+        #site_title {
+            background-image: url('/img/logo2x.png');
+            background-size: 239px auto;
+        }
+}
+
+    #footer_logo a {
+        background-image: url('/img/logo_small2x.png');
+        background-size: 40px auto;
+    }
+}
+
