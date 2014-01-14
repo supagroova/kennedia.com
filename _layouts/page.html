@@ -1,0 +1,9 @@
+---
+layout: default
+---
+{{ assign dom_id = (page.title | downcase) }}
+<div id="{{ dom_id }}">
+	<h1 id="{{ dom_id }}_title">{{ page.title }}</h1>
+	{{ page.content | markdownify }}
+</div>
+

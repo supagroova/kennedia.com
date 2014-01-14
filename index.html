@@ -1,26 +1,27 @@
 ---
 layout: default
 title: Home
+about: |-
+  Kennedia Consulting is an agile development firm specialising in cutting edge web-based solutions, who	se principle is [Lachlan Laycock](http://www.lachlanlaycock.com/). Our team and strategic partners are backed by a wide array of cross-industry, cross-technical and cross-cultural experience. We offer a unique approach to solving your web-based requirements. Our expertise lie in web-based User Interface design and usability practices - essential ingredients for any web-based solution.
+
+work: |-
+  We build web-sites and iOS mobile apps that work. Our focus is on standards, high visibility, high quality, superb user experience and short development times. We always strive to keep solutions as simple as possible whilst maintaining these standards.
+
+  We happily operate in both Mac OSX and Unix environments and choose to use platforms like Ruby on Rails, or NodeJS for Unix/OSX and Objective-C of iOS Mobile development.
+
 ---
 
 <div id="home">
 
 	<div class="span4 home-excerp">
 		<h1><a href="/about.html">About</a></h1>
-		<p>
-			Kennedia Consulting is an agile development firm specialising in cutting edge web-based solutions, whose principle is <a href="http://www.lachlanlaycock.com/">Lachlan Laycock</a>. Our team and strategic partners are backed by a wide array of cross-industry, cross-technical and cross-cultural experience. We offer a unique approach to solving your web-based requirements. Our expertise lie in web-based User Interface design and usability practices - essential ingredients for any successful web solution.
-		</p>
+		{{ page.about | markdownify }}
 		<a href="/about.html" class="pull-right">more...</a>
 	</div>
 
 	<div class="span4 home-excerp">
 		<h1><a href="/work.html">Work</a></h1>
-		<p>
-			We build web-sites that work. Our focus is on web standards, high visibility, high quality, superb user experience and fast development cycles.
-		</p>
-		<p>
-			We happily operate in both Windows and Unix environments and choose to use platforms like Ruby on Rails, PHP or Perl for Unix and ASP.NET (1 and 2) for Windows.
-		</p>
+		{{ page.work | markdownify }}
 		<a href="/work.html" class="pull-right">more...</a>
 	</div>
 	
