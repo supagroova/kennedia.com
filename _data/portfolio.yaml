@@ -148,15 +148,6 @@
     - Facebook API integration
     - Objective-C (iOS)
 
--
-  title: Dana Lixenburg
-  description: |-
-    The website for renowned photographer Dana Lixenberg.
-
-  images:
-    - url: "/img/portfolio/danalixenburg_1.png"
-    - url: "/img/portfolio/danalixenburg_2.png"
-
 - 
   title: Game Streamer
   id: gamestreamer
@@ -280,7 +271,7 @@
 - 
   id: basecamp
   description: |-
-      The Basecamp Widget is an Apple Dashboard Widget that connects to Basecamp a web-based project management application produced by 37signals. The widget allows you to conveniently access your Basecamp projects from your desktop.
+      The [Basecamp Widget](https://github.com/supagroova/basecampwidget) is an Apple Dashboard Widget that connects to Basecamp a web-based project management application produced by 37signals. The widget allows you to conveniently access your Basecamp projects from your desktop.
       
       The widget proved so popular that within the first week of release it had accumulated almost 10,000 downloads, had been featured in The Unofficial Apple Weblog and other blogs, ranked 23rd in the Apple Widget Top 50 downloaded widgets, and was chosen as an Apple Staff Favourite widget.
   images: 
