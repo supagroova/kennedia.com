@@ -4,4 +4,4 @@ pygments: true
 paginate: 5
 paginate_path: "news/page:num"
 destination: public
-exclude: ["CNAME", "Rakefile", "README.md", "public"]
+exclude: ["README.md", "public", "assets", "Gemfile", "Gemfile.lock", "s3_website.yml"]
